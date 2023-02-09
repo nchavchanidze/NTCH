@@ -1,0 +1,9 @@
+@import './reset.scss';
+@import './fonts.scss';
+@import './variables.scss';
+
+body {
+    background-color: $black;
+    font-family: $font01;
+    line-height: 1.2;
+}

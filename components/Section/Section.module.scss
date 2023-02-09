@@ -1,0 +1,17 @@
+@import '@/styles/variables';
+
+.section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+.sectionCard {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 35px;
+    width: 100%;
+}

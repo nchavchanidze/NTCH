@@ -1,0 +1,36 @@
+@import '@/styles/variables.scss';
+
+.header {
+    // background-color: $color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    width: 100%;
+    color: $white;
+
+    .header__logo {
+        font-size: 22px;
+        color: $white;
+    }
+
+    .header__button {
+        background-color: $white;
+        color: $black;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 18px;
+        font-size: $fsize02;
+        cursor: pointer;
+        text-transform: uppercase;
+        outline: 2px solid transparent;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            background-color: transparent;
+            color: $white;
+            outline: 2px solid $white;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}

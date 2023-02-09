@@ -1,0 +1,15 @@
+@import '@/styles/variables.scss';
+
+.title {
+    font-size: $fsize02;
+    color: $white;
+    line-height: 1.6;
+}
+.link {
+    font-size: $fsize02;
+    color: $white;
+    line-height: 1.6;
+    &:hover {
+        text-decoration: underline;
+    }
+}
