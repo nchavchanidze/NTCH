@@ -11,6 +11,7 @@
     line-height: 1.6;
     display: inline-block;
     vertical-align: middle;
+    word-break: break-word;
     &:hover {
         text-decoration: underline;
     }
