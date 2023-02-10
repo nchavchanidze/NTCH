@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import "@/styles/styles.scss";
 import Container from "@/components/Container/Container";
 import Heading from "@/components/Heading/Heading";
 import Title from "@/components/Title/Title";
