@@ -26,7 +26,7 @@ export default function Head() {
                 name="description"
                 content="Nikoloz Tchavtchanidze is a Front end developer with expertise in Javascript, React.js and Next.js View his portfolio to learn more."
             />
-            <meta name="robots" content="noindex, nofollow" />
+            <meta name="robots" content="index, follow" />
 
             <meta property="og:title" content="Nikoloz Tchavtchanidze" />
             <meta
