@@ -25,12 +25,49 @@
         text-transform: uppercase;
         outline: 2px solid transparent;
         transition: all 0.3s ease-in-out;
+        line-height: 1.6;
+        display: inline-block;
+        vertical-align: middle;
 
         &:hover {
             background-color: transparent;
             color: $white;
             outline: 2px solid $white;
             transition: all 0.3s ease-in-out;
+
+            svg {
+                fill: $white;
+                transition: all 0.3s ease-in-out;
+
+                path {
+                    stroke: $white;
+                    transition: all 0.3s ease-in-out;
+                }
+
+                line {
+                    stroke: $white;
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+        }
+
+        svg {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            transform: translateY(3px);
+            fill: $black;
+            transition: all 0.3s ease-in-out;
+
+            path {
+                stroke: $black;
+                transition: all 0.3s ease-in-out;
+            }
+
+            line {
+                transition: all 0.3s ease-in-out;
+                stroke: $black;
+            }
         }
     }
 }
