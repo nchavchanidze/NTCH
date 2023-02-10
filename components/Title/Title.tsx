@@ -37,12 +37,12 @@ const Title: React.FC<Props> = ({ title, url, company }) => {
                                         stroke="none"
                                         strokeWidth="1"
                                         fill="none"
-                                        fill-rule="evenodd"
+                                        fillRule="evenodd"
                                     >
                                         <g id="External-Link">
                                             <rect
                                                 id="Rectangle"
-                                                fill-rule="nonzero"
+                                                fillRule="nonzero"
                                                 x="0"
                                                 y="0"
                                                 width="24"
@@ -104,12 +104,12 @@ const Title: React.FC<Props> = ({ title, url, company }) => {
                                         stroke="none"
                                         strokeWidth="1"
                                         fill="none"
-                                        fill-rule="evenodd"
+                                        fillRule="evenodd"
                                     >
                                         <g id="External-Link">
                                             <rect
                                                 id="Rectangle"
-                                                fill-rule="nonzero"
+                                                fillRule="nonzero"
                                                 x="0"
                                                 y="0"
                                                 width="24"
