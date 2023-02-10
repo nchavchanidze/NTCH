@@ -9,7 +9,22 @@
     font-size: $fsize02;
     color: $white;
     line-height: 1.6;
+    display: inline-block;
+    vertical-align: middle;
     &:hover {
         text-decoration: underline;
+    }
+    svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        transform: translateY(3px);
+        fill: $white;
+        path {
+            stroke: $white;
+        }
+        line {
+            stroke: $white;
+        }
     }
 }
