@@ -47,7 +47,7 @@ export default function Home() {
                 description:
                     "Vako Motors is a car dealership company based in Tbilisi, Georgia.",
                 stack: "React.js ⁞ Styled Components",
-                url: "https://shop.vakomotors.ge/",
+                url: null,
                 status: "Ongoing",
             },
             {
