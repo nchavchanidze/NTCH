@@ -14,6 +14,15 @@ export default function Home() {
         experience: [
             {
                 id: 0,
+                position: "Lecturer",
+                company: "Geolab • ჯეოლაბი",
+                date: "2023 - Present",
+                description: null,
+                stack: "HTML ⁞ CSS ⁞ SCSS",
+                url: "https://geolab.edu.ge/",
+            },
+            {
+                id: 1,
                 position: "Front End Developer",
                 company: "Minister of Education and Science of Georgia",
                 date: "2019 - 2020",
@@ -22,7 +31,7 @@ export default function Home() {
                 url: "https://school.emis.ge",
             },
             {
-                id: 1,
+                id: 2,
                 position: "Junior Lecturer",
                 company: "GeoLab • ჯეოლაბი",
                 date: "2019",
@@ -31,7 +40,7 @@ export default function Home() {
                 url: "https://geolab.edu.ge/",
             },
             {
-                id: 2,
+                id: 3,
                 position: "Front End Developer",
                 company: "Web Technology S.R.O",
                 date: "2019 - Present",
