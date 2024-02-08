@@ -19,7 +19,7 @@ export default function Home() {
                 date: "2023 - Present",
                 description: "Front End Developer at Spacelink",
                 stack: "HTML ⁞ SCSS ⁞ Javascript ⁞ Next.js",
-                url: "https://geolab.edu.ge/",
+                url: "https://www.spacelink.ge/",
             },
             {
                 id: 1,
