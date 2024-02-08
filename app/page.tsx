@@ -14,15 +14,24 @@ export default function Home() {
         experience: [
             {
                 id: 0,
+                position: "Front End Developer",
+                company: "Spacelink",
+                date: "2023 - Present",
+                description: "Front End Developer at Spacelink",
+                stack: "HTML ⁞ SCSS ⁞ Javascript ⁞ Next.js",
+                url: "https://geolab.edu.ge/",
+            },
+            {
+                id: 1,
                 position: "Lecturer",
                 company: "Geolab • ჯეოლაბი",
-                date: "2023 - Present",
+                date: "2023",
                 description: "Lecturer of Front End Development",
                 stack: "HTML ⁞ CSS ⁞ SCSS",
                 url: "https://geolab.edu.ge/",
             },
             {
-                id: 1,
+                id: 2,
                 position: "Front End Developer",
                 company: "Ministry of Education and Science of Georgia",
                 date: "2019 - 2020",
@@ -31,7 +40,7 @@ export default function Home() {
                 url: "https://school.emis.ge",
             },
             {
-                id: 2,
+                id: 3,
                 position: "Junior Lecturer",
                 company: "GeoLab • ჯეოლაბი",
                 date: "2019",
@@ -40,7 +49,7 @@ export default function Home() {
                 url: "https://geolab.edu.ge/",
             },
             {
-                id: 3,
+                id: 4,
                 position: "Front End Developer",
                 company: "Web Technology S.R.O",
                 date: "2019 - Present",
